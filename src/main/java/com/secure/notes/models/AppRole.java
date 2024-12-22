@@ -1,4 +1,6 @@
 package com.secure.notes.models;
 
-public class AppRole {
+public enum AppRole {
+    ROLE_USER,
+    ROLE_ADMIN
 }
